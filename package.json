@@ -1,0 +1,53 @@
+{
+  "name": "pomodoro-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.9.8",
+    "@imgly/background-removal": "^1.5.8",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "browser-image-compression": "^2.0.2",
+    "canvas-confetti": "^1.9.3",
+    "cropperjs": "^1.6.2",
+    "file-saver": "^2.0.5",
+    "icojs": "^0.19.5",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.474.0",
+    "onnxruntime-web": "^1.21.0-dev.20250114-228dd16893",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.10.38",
+    "rc-slider": "^11.1.8",
+    "react": "^18.3.1",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-cropper": "^2.3.3",
+    "react-dom": "^18.3.1",
+    "react-draggable": "^4.4.6",
+    "react-icons": "^5.4.0",
+    "react-image-crop": "^11.0.7",
+    "react-player": "^2.16.0",
+    "react-router-dom": "^7.1.5",
+    "react-zoom-pan-pinch": "^3.7.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^6.0.11"
+  }
+}
