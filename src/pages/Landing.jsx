@@ -148,6 +148,12 @@ function Landing() {
             icon="🌐"
             link="/favicon-generator"
           />
+          <ToolComponent
+            title="Readme Generator"
+            description="Generate a README for your project"
+            icon="📄"
+            link="/readme-generator"
+          />
         </div>
       </section>
 

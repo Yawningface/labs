@@ -13,6 +13,7 @@
     "@ffmpeg/ffmpeg": "^0.9.8",
     "@imgly/background-removal": "^1.5.8",
     "@pdf-lib/fontkit": "^1.1.1",
+    "@uiw/react-md-editor": "^4.0.5",
     "browser-image-compression": "^2.0.2",
     "canvas-confetti": "^1.9.3",
     "cropperjs": "^1.6.2",
@@ -31,9 +32,12 @@
     "react-draggable": "^4.4.6",
     "react-icons": "^5.4.0",
     "react-image-crop": "^11.0.7",
+    "react-markdown": "^10.0.1",
+    "react-mde": "^11.5.0",
     "react-player": "^2.16.0",
     "react-router-dom": "^7.1.5",
-    "react-zoom-pan-pinch": "^3.7.0"
+    "react-zoom-pan-pinch": "^3.7.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

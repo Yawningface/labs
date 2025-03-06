@@ -25,6 +25,7 @@ import SignPdfPage from './pages/pdf/SignPdfPage';
 // Developers
 import ChromeExtensionIconGeneratorPage from './pages/developers/ChromeExtensionIconGeneratorPage';
 import FaviconGeneratorPage from './pages/developers/FaviconGeneratorPage';
+import ReadmeGeneratorPage from './pages/developers/ReadmeGeneratorPage';
 
 // Video
 import ChangeVideoFormatPage from './pages/video/ChangeVideoFormatPage';
@@ -60,11 +61,13 @@ function App() {
         {/* Developer Routes */}
         <Route path="/chrome-extension-icon-generator" element={<ChromeExtensionIconGeneratorPage />} />
         <Route path="/favicon-generator" element={<FaviconGeneratorPage />} />
+        <Route path="/readme-generator" element={<ReadmeGeneratorPage />} />
 
         {/* Video Routes */}
         <Route path="/change-video-format" element={<ChangeVideoFormatPage />} />
         <Route path="/change-video-resolution" element={<ChangeVideoResolutionPage />} />
         <Route path="/extract-video-clips" element={<ExtractVideoClipsPage />} />
+      
       </Routes>
     </div>
   );
