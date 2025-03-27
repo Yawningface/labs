@@ -31,6 +31,8 @@ import ReadmeGeneratorPage from './pages/developers/ReadmeGeneratorPage';
 import ChangeVideoFormatPage from './pages/video/ChangeVideoFormatPage';
 import ChangeVideoResolutionPage from './pages/video/ChangeVideoResolutionPage';
 import ExtractVideoClipsPage from './pages/video/ExtractVideoClipsPage';
+import YoutubeTranscriptionPage from './pages/video/YoutubeTranscriptionPage';
+
 
 function App() {
   return (
@@ -67,7 +69,7 @@ function App() {
         <Route path="/change-video-format" element={<ChangeVideoFormatPage />} />
         <Route path="/change-video-resolution" element={<ChangeVideoResolutionPage />} />
         <Route path="/extract-video-clips" element={<ExtractVideoClipsPage />} />
-      
+        <Route path="/youtube-transcription" element={<YoutubeTranscriptionPage />} />
       </Routes>
     </div>
   );

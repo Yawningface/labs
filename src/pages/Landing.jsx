@@ -129,7 +129,14 @@ function Landing() {
             icon="✂️"
             link="/extract-video-clips"
           />
+          <ToolComponent
+            title="Youtube Transcription Generator"
+            description="Extract transcription from youtube"
+            icon="📝"
+            link="/youtube-transcription"
+          />
         </div>
+        
       </section>
 
       {/* Developers Section */}
