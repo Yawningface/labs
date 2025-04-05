@@ -25,14 +25,13 @@ import SignPdfPage from './pages/pdf/SignPdfPage';
 // Developers
 import ChromeExtensionIconGeneratorPage from './pages/developers/ChromeExtensionIconGeneratorPage';
 import FaviconGeneratorPage from './pages/developers/FaviconGeneratorPage';
-import ReadmeGeneratorPage from './pages/developers/ReadmeGeneratorPage';
+// import ReadmeGeneratorPage from './pages/developers/ReadmeGeneratorPage'; // Commented out
 
 // Video
 import ChangeVideoFormatPage from './pages/video/ChangeVideoFormatPage';
 import ChangeVideoResolutionPage from './pages/video/ChangeVideoResolutionPage';
 import ExtractVideoClipsPage from './pages/video/ExtractVideoClipsPage';
 import YoutubeTranscriptionPage from './pages/video/YoutubeTranscriptionPage';
-
 
 function App() {
   return (
@@ -48,7 +47,7 @@ function App() {
         <Route path="/image-color-picker" element={<ImageColorPickePage />} />
         <Route path="/compress-image" element={<CompressImagePage />} />
         <Route path="/resize-image" element={<ResizeImagePage />} />
-        {/* <Route path="/cut-image" element={<CutImagePage />} /> */}
+        <Route path="/cut-image" element={<CutImagePage />} />
         <Route path="/convert-image" element={<ConvertImagePage />} />
         <Route path="/turn-image" element={<TurnImagePage />} />
         <Route path="/remove-background" element={<RemoveBackgroundPage />} />
@@ -63,7 +62,7 @@ function App() {
         {/* Developer Routes */}
         <Route path="/chrome-extension-icon-generator" element={<ChromeExtensionIconGeneratorPage />} />
         <Route path="/favicon-generator" element={<FaviconGeneratorPage />} />
-        <Route path="/readme-generator" element={<ReadmeGeneratorPage />} />
+        {/* <Route path="/readme-generator" element={<ReadmeGeneratorPage />} /> */} {/* Commented out */}
 
         {/* Video Routes */}
         <Route path="/change-video-format" element={<ChangeVideoFormatPage />} />
