@@ -51,16 +51,6 @@
 
 ---
 
-## 🚀 How It Works  
-
-**All tools run directly in your browser**, using modern web technologies like WebAssembly, JavaScript, and Web APIs. **Your files never leave your device.**  
-
-🔹 **No downloads** – Just visit [labs.yawningface.org](https://labs.yawningface.org)  
-🔹 **Instant results** – No waiting, no lag  
-🔹 **Works offline** – Many tools function even without an internet connection  
-
----
-
 ## 📥 Installation (For Local Development)  
 
 If you want to run or modify these tools locally, follow these steps:  
