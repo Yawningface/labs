@@ -1,6 +1,6 @@
 # Experimental Tools by YawningFace 🥱
 
-🚀 **No servers. No ads. No cookies. No popups.**  
+🚀 **No servers. No ads.**  
 ⚡ **100% Free & Open Source. Everything runs in your browser.**  
 
 🌐 **Live Demo:** [labs.yawningface.org](https://labs.yawningface.org)  
